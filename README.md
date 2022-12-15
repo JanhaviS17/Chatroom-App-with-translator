@@ -1,19 +1,19 @@
 # Chatroom-App-with-translator
 
-##Introduction
+## Introduction
 Chat room is a space for people across the globe to communicate with each other about various topics.
 Using this application people can join the chat room and communicate.
 One of the most frequent problems when communicating with individuals around the world is a language barrier.
 The translator features of the application can get around this difficulty and facilitate communication with people around the world.
 This application is buit using django web development framework.
 
-##Technology
-Web Framework: Django
-Language: Python
-Client Side scripting language: AJAX and Javascript
-clear
+## Technology
+* Web Framework: Django
+* Language: Python
+* Client Side scripting language: AJAX and Javascript
+* IDE : Pycharm
 
-##Requirements
+## Requirements
 asgiref==3.5.2
 certifi==2022.12.7
 chardet==3.0.4
