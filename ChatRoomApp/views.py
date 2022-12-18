@@ -49,7 +49,7 @@ def password_validation (request):
     print(room_name,password)
 
     if not Room_Details.objects.filter(Room_Name=room_name, Password=password).exists():
-        return HttpResponse("Username and Password is incorrect")
+        return HttpResponse("Username or Password is incorrect")
 
 
 def chat_page (request,room_name):
