@@ -231,7 +231,7 @@
                             type:'GET',
                             url:'/room_name_validation',
                             data:{
-                                room_name:$('#room_name').val(),
+                                room_name:$('#j_room_name').val(),
                                 csrfmiddlewaretoken:$('input[name=csrfmiddlewaretoken]').val(),
                             },
                             success: function(data){
@@ -247,8 +247,8 @@
                                 type:'GET',
                                 url:'/password_validation',
                                 data:{
-                                    room_name:$('#room_name').val(),
-                                    password:$('#pass').val(),
+                                    room_name:$('#j_room_name').val(),
+                                    password:$('#j_pass').val(),
                                     csrfmiddlewaretoken:$('input[name=csrfmiddlewaretoken]').val(),
                                 },
                                 success: function(data){
